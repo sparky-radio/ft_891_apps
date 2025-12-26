@@ -1,0 +1,122 @@
+function_name,command,p1,description
+get_auto_information,AI,,Read auto information mode
+set_auto_information,AI,0-1,Set auto information mode (0=off 1=on)
+get_vfo_b_to_a,AB,,Copy VFO-B to VFO-A
+get_agc_function,AG,,Read AGC function
+set_agc_function,AG,0-3,Set AGC function (0=off 1=fast 2=mid 3=slow)
+get_clarifier,BC,,Read clarifier on/off
+set_clarifier,BC,0-2,Set clarifier (0=off 1=RX 2=TX)
+get_band_down,BD,,Band down
+get_band_up,BU,,Band up
+get_busy_status,BY,,Read busy status
+get_ctcss_tone_freq,CN,,Read CTCSS tone frequency
+set_ctcss_tone_freq,CN,00-49,Set CTCSS tone frequency (tone number 00-49)
+get_ctcss_mode,CT,,Read CTCSS mode
+set_ctcss_mode,CT,0-2,Set CTCSS mode (0=off 1=CTCSS ENC/DEC 2=CTCSS ENC)
+get_dcs_code,DC,,Read DCS code
+set_dcs_code,DC,000-103,Set DCS code (000-103)
+get_down_key,DN,,Emulate microphone down key
+get_vfo_a_to_b,EX,,Copy VFO-A to VFO-B
+get_vfo_a_freq,FA,,Read VFO-A frequency
+set_vfo_a_freq,FA,00000000-99999999,Set VFO-A frequency (Hz 8 digits)
+get_vfo_b_freq,FB,,Read VFO-B frequency
+set_vfo_b_freq,FB,00000000-99999999,Set VFO-B frequency (Hz 8 digits)
+set_vfo_toggle,FT,,VFO-A/B toggle
+get_clarifier_offset,FC,,Read clarifier offset frequency
+set_clarifier_offset,FC,±9999,Set clarifier offset frequency (±9999 Hz)
+get_if_shift,FS,,Read IF shift value
+set_if_shift,FS,±1200,Set IF shift value (±1200 Hz)
+get_function,FW,,Read function status
+set_function,FW,0-1,Set function status
+get_agc_gain,GT,,Read AGC gain
+set_agc_gain,GT,000-255,Set AGC gain (000-255)
+get_identification,ID,,Read radio identification
+get_if_status,IF,,Read transceiver status
+get_info,IS,,Read IF shift status
+set_info,IS,0-1,Set IF shift status (0=off 1=on)
+get_keyer_memory,KM,,Read keyer memory
+set_keyer_memory,KM,1-4,Set keyer memory channel (1-4)
+get_keyer_speed,KS,,Read keyer speed
+set_keyer_speed,KS,004-060,Set keyer speed (4-60 WPM)
+get_keying,KY,message,Send CW message (max 50 chars)
+get_lock,LK,,Read lock status
+set_lock,LK,0-1,Set lock status (0=off 1=on)
+get_load_meter,LM,,Read load meter
+get_loudness,LT,,Read loudness on/off
+set_loudness,LT,0-1,Set loudness (0=off 1=on)
+get_memory_channel,MC,,Read memory channel
+set_memory_channel,MC,001-099,Set memory channel into VFO (001-099)
+get_operating_mode,MD,,Read operating mode
+set_operating_mode,MD,1-9,Set operating mode (1=LSB 2=USB 3=CW 4=FM 6=AM 8=DATA-LSB 9=DATA-USB C=DATA-FM)
+get_meter_type,MG,,Read meter type
+set_meter_type,MG,0-1,Set meter type (0=COMP 1=ALC)
+get_mic_gain,MK,,Read microphone gain
+set_mic_gain,MK,000-100,Set microphone gain (000-100)
+get_monitor,ML,,Read monitor function
+set_monitor,ML,0-1,Set monitor function (0=off 1=on)
+get_memory_to_vfo,MR,,Read memory channel data
+get_s_meter,MS,,Read S-meter value
+get_memory_write,MT,001-099,Write memory channel (001-099)
+get_memory_scan,MV,,Memory scan
+get_narrow_bandwidth,NA,,Read narrow bandwidth
+set_narrow_bandwidth,NA,0-1,Set narrow bandwidth (0=off 1=on)
+get_noise_blanker,NB,,Read noise blanker status
+set_noise_blanker,NB,0-1,Set noise blanker (0=off 1=on)
+get_noise_reduction,NR,,Read noise reduction level
+set_noise_reduction,NR,00-15,Set noise reduction level (00-15)
+get_offset_freq,OF,,Read offset frequency
+set_offset_freq,OF,00000000-99999999,Set offset frequency (Hz 8 digits)
+get_offset_direction,OS,,Read offset direction
+set_offset_direction,OS,0-2,Set offset direction (0=simplex 1=plus 2=minus)
+get_power_amp,PA,,Read power amplifier status
+set_power_amp,PA,0-1,Set power amplifier (0=off 1=on)
+get_speech_processor,PB,,Read speech processor level
+set_speech_processor,PB,000-100,Set speech processor level (000-100)
+get_output_power,PC,,Read output power level
+set_output_power,PC,005-100,Set output power level (005-100 watts)
+get_speech_proc_status,PR,,Read speech processor on/off
+set_speech_proc_status,PR,0-1,Set speech processor (0=off 1=on)
+get_power_status,PS,,Read power on/off status
+set_power_status,PS,0-1,Set power (0=off 1=on)
+get_qmb_store,QI,,Store current settings to QMB
+get_qmb_recall,QR,,Recall QMB settings
+get_quick_split,QS,,Read quick split status
+set_quick_split,QS,0-1,Set quick split (0=off 1=on)
+get_clarifier_direction,RC,,Read clarifier direction
+set_clarifier_direction,RC,0-1,Set clarifier direction (0=down 1=up)
+get_clarifier_down,RD,,Clarifier frequency down
+get_rf_gain,RG,,Read RF gain level
+set_rf_gain,RG,000-250,Set RF gain level (000-250)
+get_read_meter,RM,,Read meter value
+get_rf_attenuator,RA,,Read RF attenuator status
+set_rf_attenuator,RA,00-12,Set RF attenuator (00=off 01-12=on in dB steps)
+get_receive_mode,RX,,Set receive mode
+get_clarifier_up,RU,,Clarifier frequency up
+get_scan,SC,,Read scan status
+set_scan,SC,0-1,Set scan (0=off 1=on)
+get_squelch_level,SQ,,Read squelch level
+set_squelch_level,SQ,000-100,Set squelch level (000-100)
+get_split_status,SP,,Read split status
+set_split_status,SP,0-1,Set split status (0=off 1=on)
+get_split_mode,SM,,Read split operating mode
+set_split_mode,SM,1-9,Set split operating mode (same as MD)
+get_s_meter_read,SM,,Read S-meter
+get_transmit,TX,,Set transmit mode
+set_transmit,TX,0-1,Set transmit (0=RX 1=TX)
+get_mic_up,UP,,Emulate microphone up key
+get_vfo_mode,VF,,Set VFO mode
+get_vfo_select,VS,,VFO select
+set_vfo_select,VS,0-1,VFO select (0=VFO-A 1=VFO-B)
+get_memory_mode,VM,,Set memory mode
+get_vox_status,VX,,Read VOX status
+set_vox_status,VX,0-1,Set VOX status (0=off 1=on)
+get_vox_gain,VG,,Read VOX gain level
+set_vox_gain,VG,000-100,Set VOX gain level (000-100)
+get_vox_delay,VD,,Read VOX delay time
+set_vox_delay,VD,0000-3000,Set VOX delay time (0-3000 ms)
+get_xit_status,XT,,Read XIT on/off
+set_xit_status,XT,0-1,Set XIT (0=off 1=on)
+get_rit_status,RT,,Read RIT on/off
+set_rit_status,RT,0-1,Set RIT (0=off 1=on)
+get_rit_offset,RO,,Read RIT offset
+set_rit_offset,RO,±9999,Set RIT offset (±9999 Hz)
